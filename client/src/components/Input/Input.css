@@ -1,0 +1,39 @@
+.keyboard_input-mobile {
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: calc(10px + 2.5vmin);
+  font-weight: 700;
+  padding: 10px;
+  margin-bottom: 30px;
+  
+
+}
+
+.keyboard_input-mobile::placeholder {
+  color: black;
+}
+
+.keyboard_input-desktop {
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: calc(10px + 2.5vmin);
+  font-weight: 700;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.keyboard_input-desktop::placeholder {
+  color: black;
+}
+
+.active {
+  background-color: seagreen;
+}
+
+.error {
+  background-color: red;
+}

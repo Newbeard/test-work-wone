@@ -1,0 +1,23 @@
+.keyboard_btn-mobile {
+  /* width: 33.3%; */
+  font-size: calc(10px + 2vmin);
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #16c0da;
+  padding: 10px;
+  margin-right: 5px;
+}
+.keyboard_btn-desktop {
+  /* width: 33.3%; */
+  font-size: calc(10px + 2vmin);
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.keyboard_btn-mobile:last-child,
+.keyboard_btn-desktop:last-child {
+  margin-right: 0;
+}

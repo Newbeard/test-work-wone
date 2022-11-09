@@ -1,0 +1,24 @@
+.keyboard {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.keyboard_btn-list {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.keyboard_text {
+  font-weight: 700;
+  font-size: calc(10px + 4vmin);
+  margin-bottom: 30px;
+}
+
+.keyboard_btn-list:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+}
