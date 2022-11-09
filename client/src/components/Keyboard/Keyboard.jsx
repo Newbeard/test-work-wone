@@ -55,7 +55,7 @@ function Keyboard({ isMobile }) {
   };
 
   return (
-    <div className="keyboard">
+    <div className={isMobile? "keyboard-mobile":"keyboard"}>
       <p className="keyboard_text">Введите код из SMS </p>
       <Input inputToken={inputTokenView} isMobile={isMobile} status={status}/>
       <div className="keyboard_btn-list">

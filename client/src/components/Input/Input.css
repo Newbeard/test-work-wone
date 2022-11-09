@@ -1,29 +1,50 @@
+.keyboard_input-box {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.keyboard_input-box-mobile {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .keyboard_input-mobile {
+  width: 80%;
+  box-sizing: border-box;
   border: 1px solid black;
   border-radius: 5px;
   text-align: center;
   letter-spacing: 3px;
-  font-size: calc(10px + 2.5vmin);
+  font-size: 7vw;
   font-weight: 700;
   padding: 10px;
   margin-bottom: 30px;
+  pointer-events: none;
   
 
 }
 
 .keyboard_input-mobile::placeholder {
   color: black;
+  font-size: 5vw;
+  line-height: 110%;
+  white-space: break-spaces;
 }
 
 .keyboard_input-desktop {
-  border: 1px solid black;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid black;
   border-radius: 5px;
   text-align: center;
   letter-spacing: 3px;
-  font-size: calc(10px + 2.5vmin);
+  font-size: 2vw;
   font-weight: 700;
   padding: 10px;
   margin-bottom: 30px;
+  pointer-events: none;
 }
 
 .keyboard_input-desktop::placeholder {

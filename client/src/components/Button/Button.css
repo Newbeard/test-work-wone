@@ -1,20 +1,24 @@
 .keyboard_btn-mobile {
-  /* width: 33.3%; */
-  font-size: calc(10px + 2vmin);
+  width: 33.3%;
+  font-size: 5vw;
+  font-weight: 700;
   border: 1px solid black;
   border-radius: 5px;
   background-color: #16c0da;
   padding: 10px;
   margin-right: 5px;
+  margin-bottom: 5px;
 }
 .keyboard_btn-desktop {
-  /* width: 33.3%; */
-  font-size: calc(10px + 2vmin);
-  border: 1px solid black;
+  width: 33.3%;
+  font-size: 2vw;
+  font-weight: 700;
+  border: 2px solid black;
   border-radius: 5px;
   background-color: transparent;
   padding: 10px;
-  margin-right: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .keyboard_btn-mobile:last-child,
